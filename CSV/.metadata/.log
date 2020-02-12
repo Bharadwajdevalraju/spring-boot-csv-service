@@ -1,0 +1,1026 @@
+!SESSION 2020-02-06 17:34:47.848 -----------------------------------------------
+eclipse.buildId=3.9.10.201909190739-RELEASE-e413
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:26.326
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:26.586
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:33.809
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.jface 2 0 2020-02-06 17:35:37.029
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-06 17:35:37.029
+!MESSAGE A conflict occurred for ALT+SHIFT+X C:
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.run,Run AspectJ/Java Application,
+		Run AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@188caeaf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(ccw.ui.edit.text.clojure.launch.repl,Run Clojure new JVM for current file,
+		Run Clojure new JVM for current file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67de5328,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-06 17:35:37.029
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b05a9b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@296b758,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-02-06 17:35:38.865
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2020-02-06 17:35:38.866
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2020-02-06 17:35:38.866
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.equinox.event 4 0 2020-02-06 17:35:48.101
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/commands/HandlerContainer/handlers/ADD] {ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-manager/__start-user-plugins-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@2f19e57b (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler, object: null)}, AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-manager/__start-user-plugins-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@2f19e57b (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler, object: null)} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@55dedee7
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28)
+	at ccw.e4.model$add_handler_BANG_.invoke(model.clj:654)
+	at ccw.e4.model$merge_handler_BANG_.invoke(model.clj:800)
+	at ccw_plugin_manager$eval49.invoke(ccw-plugin-manager.clj:28)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6793)
+	at clojure.lang.Compiler.load(Compiler.java:7249)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7187)
+	at clojure.lang.RT$3.invoke(RT.java:319)
+	at ccw.core.user_plugins$load_user_script.invoke(user_plugins.clj:110)
+	at ccw.core.user_plugins$start_user_plugin$fn__8948.invoke(user_plugins.clj:125)
+	at ccw.core.user_plugins$with_bundle$reify__8934.run(user_plugins.clj:89)
+	at ccw.util.osgi.ClojureOSGi.withBundle(ClojureOSGi.java:107)
+	at ccw.core.user_plugins$with_bundle.invoke(user_plugins.clj:86)
+	at ccw.core.user_plugins$start_user_plugin.invoke(user_plugins.clj:119)
+	at ccw.core.user_plugins$load_user_plugins.invoke(user_plugins.clj:163)
+	at ccw.core.user_plugins$start_user_plugins$fn__8984.invoke(user_plugins.clj:197)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.handleHandlerEvent(HandlerProcessingAddon.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 44 more
+
+!ENTRY org.eclipse.equinox.event 4 0 2020-02-06 17:35:48.320
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/commands/HandlerContainer/handlers/ADD] {ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-manager/__create-user-plugin-cmd-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@259b7a0e (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler, object: null)}, AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-manager/__create-user-plugin-cmd-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@259b7a0e (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler, object: null)} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@55dedee7
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28)
+	at ccw.e4.model$add_handler_BANG_.invoke(model.clj:654)
+	at ccw.e4.model$merge_handler_BANG_.invoke(model.clj:800)
+	at ccw_plugin_manager$eval79.invoke(ccw-plugin-manager.clj:72)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6793)
+	at clojure.lang.Compiler.load(Compiler.java:7249)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7187)
+	at clojure.lang.RT$3.invoke(RT.java:319)
+	at ccw.core.user_plugins$load_user_script.invoke(user_plugins.clj:110)
+	at ccw.core.user_plugins$start_user_plugin$fn__8948.invoke(user_plugins.clj:125)
+	at ccw.core.user_plugins$with_bundle$reify__8934.run(user_plugins.clj:89)
+	at ccw.util.osgi.ClojureOSGi.withBundle(ClojureOSGi.java:107)
+	at ccw.core.user_plugins$with_bundle.invoke(user_plugins.clj:86)
+	at ccw.core.user_plugins$start_user_plugin.invoke(user_plugins.clj:119)
+	at ccw.core.user_plugins$load_user_plugins.invoke(user_plugins.clj:163)
+	at ccw.core.user_plugins$start_user_plugins$fn__8984.invoke(user_plugins.clj:197)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.handleHandlerEvent(HandlerProcessingAddon.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 44 more
+
+!ENTRY org.eclipse.equinox.event 4 0 2020-02-06 17:35:48.617
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/commands/HandlerContainer/handlers/ADD] {ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-manager/__create-user-plugins-projects-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@27837841 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler, object: null)}, AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-manager/__create-user-plugins-projects-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@27837841 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler, object: null)} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@55dedee7
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28)
+	at ccw.e4.model$add_handler_BANG_.invoke(model.clj:654)
+	at ccw.e4.model$merge_handler_BANG_.invoke(model.clj:800)
+	at ccw_plugin_manager$eval101.invoke(ccw-plugin-manager.clj:92)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6793)
+	at clojure.lang.Compiler.load(Compiler.java:7249)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7187)
+	at clojure.lang.RT$3.invoke(RT.java:319)
+	at ccw.core.user_plugins$load_user_script.invoke(user_plugins.clj:110)
+	at ccw.core.user_plugins$start_user_plugin$fn__8948.invoke(user_plugins.clj:125)
+	at ccw.core.user_plugins$with_bundle$reify__8934.run(user_plugins.clj:89)
+	at ccw.util.osgi.ClojureOSGi.withBundle(ClojureOSGi.java:107)
+	at ccw.core.user_plugins$with_bundle.invoke(user_plugins.clj:86)
+	at ccw.core.user_plugins$start_user_plugin.invoke(user_plugins.clj:119)
+	at ccw.core.user_plugins$load_user_plugins.invoke(user_plugins.clj:163)
+	at ccw.core.user_plugins$start_user_plugins$fn__8984.invoke(user_plugins.clj:197)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.handleHandlerEvent(HandlerProcessingAddon.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 44 more
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:48.658
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:48.662
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY org.eclipse.equinox.event 4 0 2020-02-06 17:35:48.773
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/commands/HandlerContainer/handlers/ADD] {ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin.hello-world/__greeter-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@13e71803 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler, object: null)}, AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin.hello-world/__greeter-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@13e71803 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler, object: null)} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@55dedee7
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28)
+	at ccw.e4.model$add_handler_BANG_.invoke(model.clj:654)
+	at ccw.e4.model$merge_handler_BANG_.invoke(model.clj:800)
+	at ccw_plugin.hello_world$eval123.invoke(hello-world.clj:5)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6793)
+	at clojure.lang.Compiler.load(Compiler.java:7249)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7187)
+	at clojure.lang.RT$3.invoke(RT.java:319)
+	at ccw.core.user_plugins$load_user_script.invoke(user_plugins.clj:110)
+	at ccw.core.user_plugins$start_user_plugin$fn__8948.invoke(user_plugins.clj:125)
+	at ccw.core.user_plugins$with_bundle$reify__8934.run(user_plugins.clj:89)
+	at ccw.util.osgi.ClojureOSGi.withBundle(ClojureOSGi.java:107)
+	at ccw.core.user_plugins$with_bundle.invoke(user_plugins.clj:86)
+	at ccw.core.user_plugins$start_user_plugin.invoke(user_plugins.clj:119)
+	at ccw.core.user_plugins$load_user_plugins.invoke(user_plugins.clj:163)
+	at ccw.core.user_plugins$start_user_plugins$fn__8984.invoke(user_plugins.clj:197)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.handleHandlerEvent(HandlerProcessingAddon.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 44 more
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:48.791
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:48.797
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY org.eclipse.equinox.event 4 0 2020-02-06 17:35:49.240
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/commands/HandlerContainer/handlers/ADD] {ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-zoom/__zoom-in-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@1eb70e79 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler, object: null)}, AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-zoom/__zoom-in-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@1eb70e79 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler, object: null)} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@55dedee7
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28)
+	at ccw.e4.model$add_handler_BANG_.invoke(model.clj:654)
+	at ccw.e4.model$merge_handler_BANG_.invoke(model.clj:800)
+	at ccw_plugin_zoom$eval156.invoke(ccw-plugin-zoom.clj:75)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.load(Compiler.java:7249)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7187)
+	at clojure.lang.RT$3.invoke(RT.java:319)
+	at ccw.core.user_plugins$load_user_script.invoke(user_plugins.clj:110)
+	at ccw.core.user_plugins$start_user_plugin$fn__8948.invoke(user_plugins.clj:125)
+	at ccw.core.user_plugins$with_bundle$reify__8934.run(user_plugins.clj:89)
+	at ccw.util.osgi.ClojureOSGi.withBundle(ClojureOSGi.java:107)
+	at ccw.core.user_plugins$with_bundle.invoke(user_plugins.clj:86)
+	at ccw.core.user_plugins$start_user_plugin.invoke(user_plugins.clj:119)
+	at ccw.core.user_plugins$load_user_plugins.invoke(user_plugins.clj:163)
+	at ccw.core.user_plugins$start_user_plugins$fn__8984.invoke(user_plugins.clj:197)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.handleHandlerEvent(HandlerProcessingAddon.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 43 more
+
+!ENTRY org.eclipse.equinox.event 4 0 2020-02-06 17:35:49.358
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/commands/HandlerContainer/handlers/ADD] {ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-zoom/__zoom-out-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@7e68d8ea (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler, object: null)}, AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ccw-plugin-zoom/__zoom-out-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@7e68d8ea (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler, object: null)} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@55dedee7
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28)
+	at ccw.e4.model$add_handler_BANG_.invoke(model.clj:654)
+	at ccw.e4.model$merge_handler_BANG_.invoke(model.clj:800)
+	at ccw_plugin_zoom$eval175.invoke(ccw-plugin-zoom.clj:82)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.load(Compiler.java:7249)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7187)
+	at clojure.lang.RT$3.invoke(RT.java:319)
+	at ccw.core.user_plugins$load_user_script.invoke(user_plugins.clj:110)
+	at ccw.core.user_plugins$start_user_plugin$fn__8948.invoke(user_plugins.clj:125)
+	at ccw.core.user_plugins$with_bundle$reify__8934.run(user_plugins.clj:89)
+	at ccw.util.osgi.ClojureOSGi.withBundle(ClojureOSGi.java:107)
+	at ccw.core.user_plugins$with_bundle.invoke(user_plugins.clj:86)
+	at ccw.core.user_plugins$start_user_plugin.invoke(user_plugins.clj:119)
+	at ccw.core.user_plugins$load_user_plugins.invoke(user_plugins.clj:163)
+	at ccw.core.user_plugins$start_user_plugins$fn__8984.invoke(user_plugins.clj:197)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.handleHandlerEvent(HandlerProcessingAddon.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 42 more
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:49.389
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:49.390
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:49.980
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:49.980
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY org.eclipse.equinox.event 4 0 2020-02-06 17:35:50.501
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/commands/HandlerContainer/handlers/ADD] {ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.legacy.ide.application=org.eclipse.e4.ui.model.application.impl.ApplicationImpl@2d88c1bf (tags: [activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration, ModelMigrationProcessor.001], contributorURI: platform:/plugin/org.eclipse.platform) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (context: WorkbenchContext, variables: null), AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ansi-repl/__ansi-repl-status-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@77249321 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status, object: null)}, AttName=handlers, EventType=ADD, Position=0, Widget=null, NewValue=ansi-repl/__ansi-repl-status-handler=org.eclipse.e4.ui.model.application.commands.impl.HandlerImpl@77249321 (tags: [ccw], contributorURI: null) (contributionURI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status, object: null)} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@55dedee7
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at jdk.internal.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28)
+	at ccw.e4.model$add_handler_BANG_.invoke(model.clj:654)
+	at ccw.e4.model$merge_handler_BANG_.invoke(model.clj:800)
+	at ansi_repl$eval284.invoke(ansi-repl.clj:222)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.load(Compiler.java:7249)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7187)
+	at clojure.lang.RT$3.invoke(RT.java:319)
+	at ccw.core.user_plugins$load_user_script.invoke(user_plugins.clj:110)
+	at ccw.core.user_plugins$start_user_plugin$fn__8948.invoke(user_plugins.clj:125)
+	at ccw.core.user_plugins$with_bundle$reify__8934.run(user_plugins.clj:89)
+	at ccw.util.osgi.ClojureOSGi.withBundle(ClojureOSGi.java:107)
+	at ccw.core.user_plugins$with_bundle.invoke(user_plugins.clj:86)
+	at ccw.core.user_plugins$start_user_plugin.invoke(user_plugins.clj:119)
+	at ccw.core.user_plugins$load_user_plugins.invoke(user_plugins.clj:163)
+	at ccw.core.user_plugins$start_user_plugins$fn__8984.invoke(user_plugins.clj:197)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.call(AFn.java:18)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.handleHandlerEvent(HandlerProcessingAddon.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 42 more
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:50.590
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:50.591
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2020-02-06 17:35:50.602
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2020-02-06 18:10:53.071
+!MESSAGE Stopping ccw nREPL server...
+!SESSION 2020-02-07 14:04:40.240 -----------------------------------------------
+eclipse.buildId=3.9.10.201909190739-RELEASE-e413
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY ccw.core 1 0 2020-02-07 14:04:49.835
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2020-02-07 14:04:50.756
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2020-02-07 14:04:56.870
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-02-07 14:04:56.968
+!MESSAGE Unable to create class 'org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon' from bundle '172'
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:998)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:408)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:345)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:227)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:94)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:37)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:289)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:579)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.postConstruct(HandlerProcessingAddon.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 27 more
+
+!ENTRY org.eclipse.jface 2 0 2020-02-07 14:04:59.744
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-07 14:04:59.744
+!MESSAGE A conflict occurred for ALT+SHIFT+X C:
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.run,Run AspectJ/Java Application,
+		Run AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16745ba7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(ccw.ui.edit.text.clojure.launch.repl,Run Clojure new JVM for current file,
+		Run Clojure new JVM for current file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c9518ee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-07 14:04:59.744
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d094add,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28833fff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:12.448
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:12.449
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:12.516
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:12.517
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:13.082
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:13.082
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:13.529
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:13.529
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:13.842
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:13.842
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2020-02-07 14:05:13.842
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2020-02-07 14:07:48.552
+!MESSAGE Stopping ccw nREPL server...
+!SESSION 2020-02-07 14:08:01.941 -----------------------------------------------
+eclipse.buildId=3.9.10.201909190739-RELEASE-e413
+java.version=11.0.5
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:08.123
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:08.215
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:11.461
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-02-07 14:08:11.535
+!MESSAGE Unable to create class 'org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon' from bundle '172'
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:998)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:408)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:345)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:227)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:94)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:37)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:289)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:579)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.processActiveHandler(HandlerProcessingAddon.java:145)
+	at org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon.postConstruct(HandlerProcessingAddon.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 27 more
+
+!ENTRY org.eclipse.jface 2 0 2020-02-07 14:08:12.806
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-07 14:08:12.806
+!MESSAGE A conflict occurred for ALT+SHIFT+X C:
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(org.eclipse.ajdt.launching.runShortcut.run,Run AspectJ/Java Application,
+		Run AspectJ/Java Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23b260ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X C,
+	ParameterizedCommand(Command(ccw.ui.edit.text.clojure.launch.repl,Run Clojure new JVM for current file,
+		Run Clojure new JVM for current file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d5b160,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,gtk,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-07 14:08:12.806
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fd07138,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53115ee0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.384
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.385
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.451
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.451
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.754
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.755
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.889
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:17.889
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:18.023
+!MESSAGE Loaded User Script /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:18.024
+!MESSAGE Loaded User Plugin: /home/ramakrishnadevalaraju/Desktop/STS/sts-bundle/sts-3.9.10.RELEASE/plugins/ccw.core_0.35.1.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2020-02-07 14:08:18.024
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2020-02-07 14:09:57.371
+!MESSAGE Stopping ccw nREPL server...
